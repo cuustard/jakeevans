@@ -1,12 +1,4 @@
 body {
     background-color: cornflowerblue;
-    text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-
-.name {
-     border: 5px outset red;
-     background-color: lightblue;
-     text-align: center;
 }
