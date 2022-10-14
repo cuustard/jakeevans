@@ -4,9 +4,9 @@ body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-div {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
+
+.name {
+     border: 5px outset red;
+     background-color: lightblue;
+     text-align: center;
+}
