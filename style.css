@@ -1,62 +1,88 @@
+/* For entire body */
 body {
-    background-color: #303136;
+    background-color: #36393f;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px 150px 0px 150px;
     color: rgb(255, 255, 255);
-}
-
-h1 {
-    text-align: center;
-}
-
-p {
+    min-width: 500px;
+    max-width: 800px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 15%);
+    border-radius: 20px;
     text-align: left;
 }
 
-div {
-    min-width: 500px;
-    max-width: 800px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0);
-    padding: 100px;
-    margin: auto;
-    background-color: #36393f;
-    box-shadow: 5px 5px 7px 5px rgba(255, 255, 255, 0.15);
+/* Centeres any element with the class="name" attribute*/
+.name {
+    text-align: center;
+    border-bottom: px solid grey;
 }
 
-
-
 /* Table */
-
 table {
     border-collapse: collapse;
-    width: 25em;
+    width: 30em;
     background-color: #40444b;
     border-radius: 7px;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 15%);
     margin: 25px left;
 }
 
+/* styles the headings*/
 tr th {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-    font-size: 16px;
     letter-spacing: 1px;
     padding: 10px;
     text-align: left;
+    font-size: 17px;
 }
 
+/* makes pading 10px for any <td> in a <tr>*/
 tr td {
     padding: 8px;
 }
 
-
+/* made any <span> element inside of a <td> inside of a <tr> in a table smaller and a different color*/
 table tr td span {
     font-size: 12px;
     color: beige;
 }
 
-
+/* Makes the furthest right columns centered right */
 table tr th:nth-last-child(1),
 table tr td:nth-last-child(1) {
     text-align: right;
+}
+
+/* Makes the dashed line on the rigth of the 'users' */
+.grouped {
+    border-right: 1px dashed rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Makes the top left corner have dasehd line on the right */
+tr th:nth-child(1) {
+    border-right: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    }
+    
+    
+a:hover, a:active {
+    color: black;
+    background-color: #c4c4c4;
+    box-shadow: #000;
 }
