@@ -71,16 +71,15 @@ tr th:nth-child(1) {
     border-right: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
+/* Styling for links*/
 a:link, a:visited {
     color: white;
-    padding: 3px 5px;
+    padding: 3px 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 10px;
     }
-    
-    
 a:hover, a:active {
     color: black;
     background-color: #c4c4c4;
