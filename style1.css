@@ -16,6 +16,11 @@ body {
     padding-top: 20px;
 }
 
+hr {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
 
 /* Centeres any element with the class="name" attribute*/
 .name {
