@@ -28,17 +28,17 @@ body {
     padding-top: 20px;
 }
 
+
+h1 {
+    text-align: center;
+}
+
 hr {
+    padding: -20px;
     margin-right: -20px;
     margin-left: -20px;
 }
 
-
-/* Centeres any element with the class="name" attribute*/
-.name {
-    text-align: center;
-    border-bottom: px solid grey;
-}
 
 /* Table */
 table {
@@ -76,20 +76,14 @@ table tr td:nth-last-child(1) {
     text-align: right;
 }
 
-/* Makes the dashed line on the rigth of the 'users' */
-.grouped {
+/* Styles any rowspan in a table*/
+td[rowspan] {
+    font-weight: 700;
     border-right: 1px dashed rgba(255, 255, 255, 0.5);
     font-size: 17px;
     letter-spacing: 1px;
     padding: 10px;
 }
-
-/* Makes  any <td> with a rowspan attribute have a heavier font weight*/
-td[rowspan] {
-font-weight: 700;
-}
-
-
 
 /* Makes the top left corner have dasehd line on the right */
 tr th:nth-child(1) {
