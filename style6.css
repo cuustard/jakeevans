@@ -5,9 +5,17 @@
 }
 
 body {
+    /* Colors of bg and text*/
     background-color: #36393f;
-    font-family: 'Mali', cursive;
     color: rgb(255, 255, 255);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 15%);
+    /* Text Styling */
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+    /* */
     min-width: 30em;
     max-width: 800px;
     padding: 100px;
@@ -15,7 +23,6 @@ body {
     margin-right: auto;
     margin-bottom: 100px;
     margin-top: 100px;
-    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 15%);
     border-radius: 20px;
     text-align: left;
     padding-top: 20px;
@@ -75,8 +82,14 @@ table tr td:nth-last-child(1) {
     font-size: 17px;
     letter-spacing: 1px;
     padding: 10px;
-    font-weight: 700;
 }
+
+/* Makes  any <td> with a rowspan attribute have a heavier font weight*/
+td[rowspan] {
+font-weight: 700;
+}
+
+
 
 /* Makes the top left corner have dasehd line on the right */
 tr th:nth-child(1) {
