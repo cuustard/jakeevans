@@ -75,7 +75,7 @@ table tr td:nth-last-child(1) {
     font-size: 17px;
     letter-spacing: 1px;
     padding: 10px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* Makes the top left corner have dasehd line on the right */
