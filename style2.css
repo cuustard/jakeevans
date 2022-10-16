@@ -1,4 +1,9 @@
 /* For entire body */
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #36393f;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
