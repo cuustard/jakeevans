@@ -28,18 +28,6 @@ body {
     padding-top: 20px;
 }
 
-
-h1 {
-    text-align: center;
-}
-
-/* hr {
-    margin-right: -20px;
-    margin-left: -20px;
-    height: -50px;
-} */
-
-
 /* Table */
 table {
     border-collapse: collapse;
@@ -106,21 +94,27 @@ a:hover, a:active {
 }
 
 
-.testting123 {
+.headingTitle {
     border-bottom: 2px solid white;
     height: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
     text-align: center;
-    width: 100%;
-    
 }
   
-.Testing {
+h1 {
+    display: inline;
+    padding: 10px;
+    width: 100%;
     color: white;
-    padding: 1%;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+}
+
+
+
+p {
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 40px;
 }
