@@ -106,17 +106,15 @@ a:hover, a:active {
 }
 
 
-div {
+h1 {
     border-bottom: 2px solid white;
     height: 20px;
     text-align: center;
     width: 110%;
-    ;
-  }
+}
   
-  div span {
+h1 span {
     color: white;
     font-size: 30px;
-  
     padding: 1%;
-  }
+}
