@@ -33,11 +33,11 @@ h1 {
     text-align: center;
 }
 
-hr {
+/* hr {
     margin-right: -20px;
     margin-left: -20px;
     height: -50px;
-}
+} */
 
 
 /* Table */
@@ -106,14 +106,14 @@ a:hover, a:active {
 }
 
 
-h1 {
+div {
     border-bottom: 2px solid white;
     height: 20px;
     text-align: center;
     width: 110%;
 }
   
-h1 span {
+div span {
     color: white;
     font-size: 30px;
     padding: 1%;
