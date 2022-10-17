@@ -113,7 +113,7 @@ div {
     width: 110%;
 }
   
-div[span] {
+,title {
     color: white;
     font-size: 30px;
     padding: 1%;
