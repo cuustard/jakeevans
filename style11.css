@@ -106,14 +106,14 @@ a:hover, a:active {
 }
 
 
-div {
+.testing123 {
     border-bottom: 2px solid white;
     height: 20px;
     text-align: center;
     width: 110%;
 }
   
-.title {
+.Testing {
     color: white;
     font-size: 30px;
     padding: 1%;
