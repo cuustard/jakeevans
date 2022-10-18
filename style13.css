@@ -30,6 +30,7 @@ body {
 
 /* Table */
 table {
+    overflow-x: auto;
     border-collapse: collapse;
     width: 100%;
     background-color: #40444b;
