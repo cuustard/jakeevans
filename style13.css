@@ -31,7 +31,7 @@ body {
 /* Table */
 table {
     border-collapse: collapse;
-    width: 30em;
+    width: 100%;
     background-color: #40444b;
     border-radius: 7px;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 15%);
