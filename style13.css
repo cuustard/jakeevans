@@ -7,7 +7,6 @@
 
 body {
     /* Colors*/
-
     color: rgb(255, 255, 255);
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 15%);
     /* Text Styling */
@@ -108,8 +107,6 @@ h1 {
     width: 100%;
     color: white;
 }
-
-
 
 p {
     padding-top: 20px;
