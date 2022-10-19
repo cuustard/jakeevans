@@ -94,12 +94,20 @@ a:hover, a:active {
 }
 
 
-.headingTitle {
+.headingTitle1 {
     border-bottom: 2px solid white;
     height: 20px;
     margin-left: -20px;
     margin-right: -20px;
     text-align: center;
+}
+
+.headingTitle {
+    border-bottom: 2px solid white;
+    height: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: left;
 }
   
 h1 {
