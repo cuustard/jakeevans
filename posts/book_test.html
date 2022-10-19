@@ -4,19 +4,20 @@
         testing a book
         <style>
 
-            .shelf {
-                pos
-            }
             /* first book*/
             .book1 {
                 z-index: 1;
                 position: absolute;
                 float: left;
-                
+
                 width: 290px;
                 height: 1100px;
                 background: url("../images/FINAL_book_111111111111.png") no-repeat;
                 float: left;
+            }
+
+            .book1:hover {
+                background: url("../images/FINAL_book_2222222222222.png") no-repeat;
             }
 
             /* second book*/
@@ -31,11 +32,6 @@
                 background: url("../images/FINAL_book_111111111111.png") no-repeat;
             }
 
-            /* Hovering on both*/
-            .book1:hover {
-                background: url("../images/FINAL_book_2222222222222.png") no-repeat;
-            }
-
             .book2:hover {
                 background: url("../images/FINAL_book_2222222222222.png") no-repeat;
             }
@@ -44,8 +40,8 @@
 
     <body>
         <div class="shelf">
-            <div class="book1"><div class="edge"></div>
-            <div class="book2"><div class="edge"></div></div>
+            <div class="book1"></div>
+            <div class="book2"></div>
         </div>
     </body>
 </html>
