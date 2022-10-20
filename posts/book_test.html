@@ -6,16 +6,22 @@
             .shelf {
                 position: absolute;
                 z-index: 1;
-                background: url("../images/small_shelf.png") no-repeat;
-                width: 3019px;
-                height: 2571px;
                 float: left;
-                left: 1200px;
+                border: 1px solid red;
+                width: 1300px;
+            }
+            
+            .shelfImage {
+                width: 100%;
             }
 
-            /* first book*/
+            .waraper {
+                border: 1px solid blue;
+            }
+
+            /* first book*/ 
             .book1 {
-                z-index: 1;
+                z-index: 2;
                 position: absolute;
                 float: left;
 
@@ -32,7 +38,7 @@
 
             /* second book*/
             .book2 {
-                z-index: 1;
+                z-index: 2;
                 position: absolute;
                 float: left;
                 left: 240px;
@@ -48,7 +54,7 @@
 
             /* third book*/
             .book3 {
-                z-index: 1;
+                z-index: 2;
                 position: absolute;
                 float: left;
                 left: 480px;
@@ -64,7 +70,7 @@
 
             /* fourth book*/
             .book4 {
-                z-index: 1;
+                z-index: 2;
                 position: absolute;
                 float: left;
                 left: 720px;
@@ -80,7 +86,7 @@
 
             /* fifth book*/
             .book5 {
-                z-index: 1;
+                z-index: 2;
                 position: absolute;
                 float: left;
                 left: 960px;
@@ -98,11 +104,14 @@
     </head>
 
     <body>
-        <div class="shelf"></div>
-        <div class="book1"></div>
-        <div class="book2"></div>
-        <div class="book3"></div>
-        <div class="book4"></div>
-        <div class="book5"></div>
+        <div class="shelf"><img class="shelfImage" src="../images/small_shelf.png">
+            <div class="waraper">
+                <div class="book1"></div>
+               <div class="book2"></div>
+                <div class="book3"></div>
+                <div class="book4"></div>
+                <div class="book5"></div>
+            </div>
+        </div>
     </body>
 </html>
