@@ -83,7 +83,7 @@ a:hover, a:active {
 .headingTitle1 {
     border-bottom: 2px solid white;
     height: 20px;
-    margin: 0 -20px 50px -20px;
+    margin: -5px -20px 50px -20px;
     text-align: center;
 }
 /* makes line go under neath H1 and makes the line not so close to the text*/
@@ -97,7 +97,7 @@ h1 {
 .headingTitle {
     border-bottom: 2px solid white;
     height: 15px;
-    margin: 30px -20px 40px -20px;
+    margin: 10px -20px 40px -20px;
     text-align: left;
 }
 h2 {
