@@ -1,3 +1,17 @@
+
+/* browser resets */
+
+/* Switch to 'border box', and reset browser margin & padding to zero */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
 /*----------Body----------*/
 body {
     /* Colors*/
@@ -11,7 +25,7 @@ body {
     letter-spacing: 0.5px;
     /* idek */
     min-width: 480px;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 100px;
     margin: 100px auto 100px auto;
     border-radius: 20px;
@@ -111,6 +125,7 @@ h2 {
 /*----------Lists----------*/
 ul, ol {
     padding-left: 40px;
+    margin-bottom: 20px;
 }
 
 
